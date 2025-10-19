@@ -9,17 +9,17 @@ public class App {
             int opcion = Integer.parseInt(System.console().readLine("Opción: "));
             switch (opcion) {
                 case 1 -> {
-                    int i = 100;
-                    while (i > -1) {
+                    int i = 0;
+                    while (i < 101) {
                         System.out.println(i);
-                        i -= 5;
+                        i += 5;
                     }
                 }
                 case 2 -> {
-                    int i = 100;
-                    while (i > -1) {
+                    int i = 0;
+                    while (i < 101) {
                         System.out.print(i + " ");
-                        i -= 5;
+                        i += 5;
                     }
                 }
                 default -> {
